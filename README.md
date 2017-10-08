@@ -1,5 +1,5 @@
-#Chhota
-###Means small, in Hindi
+# Chhota
+### Means small, in Hindi
 
 **Chhota is a front end url shortener without the need for a Database.**\
 
