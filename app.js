@@ -25,7 +25,7 @@ if(location.hash.slice(1).substr(0,6) == "create"){
 	};
 
 	var googleApiLoaded = function() {
-	  gapi.client.setApiKey("AIzaSyCPYjwoXEGBFjH7Ew79zLQr7zdABL_Meww")
+	  gapi.client.setApiKey("Put api key here")
 	  gapi.client.load("urlshortener", "v1", shortenUrl);
 	};
 
