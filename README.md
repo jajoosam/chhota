@@ -1,6 +1,8 @@
 # Chhota
 ### Means small, in Hindi
-
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/gk2KHfxPsEcG2TgXLtSXnnoA/jajoosam/chhota'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/gk2KHfxPsEcG2TgXLtSXnnoA/jajoosam/chhota.svg' />
+</a>
 **Chhota is a front end url shortener without the need for a Database.**\
 
 It runs a sort of mirror on http://goo.gl, and uses the *#* to keep the process completely on the front end.
