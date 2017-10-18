@@ -1,97 +1,95 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Chhota</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css">
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-<body>
-    <div class="header" style="margin-top: 10px; margin-left: 20px;">
-      <a href="http://chhota.ga"><h1 class="title is-2">Chhota</h1></a>
-      <h1 class="subtitle is-3" style="margin-left: 20px;">A front-end url shortener without any database</h1>
-    </div>
-    <hr>
+    <head>
+        <title>Chhota</title>
+        
+        <meta charset="utf-8">
+        <meta name="author" content="Samarth Jajoo">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="/favicon.png">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Roboto|Hind|Hind+Siliguri|Scope+One" rel="stylesheet">
 
-  <form id="formo" style="margin-top: 50px;>
-    <div class="container">
-    <div class="field has-addons has-addons-centered">
-      <div class="control has-icons-left">
-        <input type="text" class="input is-large " id="lolz" placeholder="Type in a url...">
-            <span class="icon is-small is-left">
-              <i class="fa fa-laptop"></i>
-            </span>
-      </div>
-        <div class="control">
-          <button type="submit" class="button is-primary is-large">
-            <i class="fa fa-search"></i> 
-          </button>
-        </div>
-        <div class="control">
-          <a href="http://jajoosam.tech/pay" class="button button is-primary is-outlined is-large">Donate</a>
-        </div>
-      </div>
-    </div>
-  </form>
-
-  <div class="card" id="cardo">
-  <h1 class="title is-3">Your chhota code is: <a id="link" href=""><span id="url"></span></a></h1>
-  <h1 class="subtitle is-4">Add this to your domain, for visiting your short url.</h1>
- <footer class="card-footer">
-    <p class="card-footer-item">
-      <span>
-        <a id="statslink" href="#">View stats</a>
-      </span>
-    </p>
-    <p class="card-footer-item">
-      <span>
-        <a id="qrlink" href="#">Share QR</a>
-      </span>
-    </p>
-  </footer>
-</div>
+        <!-- import fontawesome -->
+        <script src="https://use.fontawesome.com/c04d348809.js"></script>
+        
+    </head>
     
-    <div id="hido">
-      <hr>
+    <body>
+        <header>
+            <div id="header-items-container">
+                <a id="title" href="http://chhota.ga"><h1 id="product-name">Chhota!</h1></a>
+                <h2 id="product-tag">A front-end url shortener without any database.</h2>
+                
+                
+                
+                <!-- url shortening input -->
+                <form id="formo">
+                    <div id="input-box">
+                        <input type="text" id="lolz" placeholder="type in a url ...">
+                        <i id="laptop" class="fa fa-laptop"></i>
+                    </div>
 
-    <p style="margin: 30px 20px">Just copy-paste this script tag into your index.html to add chhota url shortening to your domain!</p>
-    <code style="margin-left: 20px;">&lt;script src="http://chhota.ga/chhota.js">&lt;/script></code>
-    </div>
-    <hr>
+                    <div id="submit-area">
+                        <button type="submit" class="" id="submit">
+                            <i class="fa fa-bolt"></i>
+                        </button>
+                    </div>
+                </form>
+                
+                <section id="misc">
+                    <a id="our-github" class="icon" href="https://github.com/jajoosam/chhota">GitHub <i class="fa fa-github"></i></a>
+                    <a id="donate" href="http://jajoosam.tech/pay">Donate<i class="fa fa-dollar"></i></a>
+                </section>
+            </div>  
+        </header>
+        
+        
+        
+        
+        
+        
+        <section id="implementation">
+            <h2>How To Add Chhota To Your Frontend</h2>
+            <p id="guide">Just copy and paste this snippet into your index.html to add chhota url shortening to your domain!</p>
+            <code>&lt;script src="http://chhota.ga/chhota.js">&lt;/script></code>
+            <button id="copy-snippet">copy! <i class="fa fa-copy"></i></button>
+        </section>
+        
+        <div id="card">
+            <h1>Your chhota code is: <a id="link" href=""><span id="url"></span></a></h1>
+            <h2>Add this to your domain, for visiting your short url.</h2>
+            
+            <section id="card-footer">
+                <p class="card-footer-item">
+                    <a id="statslink" href="#"><span>View stats <i class="fa fa-bars"></i></span></a>
+                </p>
+                
+                <p class="card-footer-item">
+                    <a id="qrlink" href="#"><span>Share QR <i class="fa fa-qrcode"></i></span></a>
+                </p>
+            </section>
+        </div>
+        
+        <section id="usage">
+            <h1>Example Usage :</h1>
+            <ol id="process-tree">
+                <li>I add chhota to <a href="http://jajoosam.tech">http://jajoosam.tech</a> .</li>
+                <li>I get the chhota code for <a href="http://google.com">google.com </a>here - <a href="http://chhota.ga/#create=google.com">http://chhota.ga/#create=google.com</a> - It is #$mR2d</li>
+                <li>I go to <a href="http://jajoosam.tech/#$mR2d">http://jajoosam.tech/#$mR2d</a> - and boom!! ,  I'm on <a href="http://google.com">Google</a> .</li>
+            </ol>
+        </section>
+        
+        <footer id="">
+            <p><strong>Chhota</strong> made with <i class="fa fa-heart"></i> by <a href="http://jajoosam.tech">Samarth Jajoo</a> || <a id="icon" href="https://github.com/jajoosam/chhota"><i class="fa fa-github"></i></a></p>
+            <p>Powered by <a href="https://goo.gl">goo.gl</a></p>
+        </footer>
+        
+        
 
-    <div id="explo" style="margin-top: 20px; margin-left: 20px;">
-      <h1 class="title is-3">Example Explainer:</h1>
-      <ol style="margin-left: 20px;">
-        <li>I add chhota to <a href="http://jajoosam.tech">http://jajoosam.tech</a>. </li>
-        <li>I get the chhota code for <a href="http://google.com">google.com </a>here - <a href="http://chhota.ga/#create=google.com">http://chhota.ga/#create=google.com</a> - It is #$mR2d</li>
-        <li>I go to <a href="http://jajoosam.tech/#$mR2d">http://jajoosam.tech/#$mR2d</a> - and boom I'm on <a href="http://google.com">google</a></li>
-      </ol>
-    </div>
-    <footer id="footo" style="margin-top: 30px; width: 100%; max-height: 1px;  right: 0; bottom: 0;left: 0;" class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Chhota</strong> made with <i class="fa fa-heart"></i> by <a href="http://jajoosam.tech">Samarth Jajoo</a>. <br> <br> Powered by <a href="https://goo.gl">goo.gl</a>.
-      </p>
-            <p>
-        <a class="icon" href="https://github.com/jajoosam/chhota">
-          <i class="fa fa-github"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
-  <script class="form submission">
-    document.getElementById("lolz").focus();
-    document.getElementById("formo").addEventListener("submit", function(ev) {
-        ev.preventDefault();
-      var button = document.getElementById('lolz');
-      var location = window.location.href + "#create=" + lolz.value;
-      window.location.reload(true);
-      console.log(location)
-      window.location.href = location;
-    });
-  </script>
-<script src="app.js"></script>
-</body>
+        <script type="text/javascript" src="js/temp-app.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+    
 </html>

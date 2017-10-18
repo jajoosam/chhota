@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    font-family: monospace;
+    text-align: center;
+    height: 70vh;
+    color: white;
+    background-image: url(../img/aperture-vintage-313010.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#header-items-container {
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+
+#title {
+    display: inline-block;
+}
+
+#title h1 {
+    color: #fc3;
+    font-size: 70px;
+    font-family: "Hind", serif;
+}
+
+#product-tag {
+    margin-top: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    font-family: "Scope One", serif;
+}
+
+#formo {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#input-box {
+    position: relative;
+}
+
+#lolz {
+    height: 16px;
+    padding: 13px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 22px;
+    border: none;
+    padding-left: 50px;
+    font-family: "Roboto"
+}
+
+#lolz:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px 5px #fc3 ;
+}
+
+#laptop {
+    font-size: 23px;
+    position: absolute;
+    top: 10px;
+    left: 33px;
+    color: grey;
+}
+
+
+#submit-area {
+    margin-top: 12px;
+}
+
+#submit {
+    width: 30%;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    background-color: rgba(255,204,51,0.9);
+}
+
+#submit i {
+    font-size: 20px; 
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #fc3;
+}
+
+#misc {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+#misc a {
+    font-size: 19px;
+    border: 2px solid #fc3;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: "Scope one", serif;
+    margin: 5px;
+}
+
+#misc a:hover {
+    background-color: #fc3;
+    color: black;
+}
+
+#donate i {
+    margin-left: 5px;
+}
+
+
+
+#implementation {
+    height: 30vh;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background-color: #dddddd
+}
+
+#implementation h2 {
+    display: inline-block;
+    font-family: "Roboto";
+    border-bottom: 2px solid  black;
+}
+
+#implementation p {
+    font-size: 20px;
+    font-family: "Hind Siliguri";
+    margin-top: 20px;
+}
+
+/* rgba(255,0,0,0.4); */
+
+#implementation code {
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgba(255,204,51,0.8);
+}
+
+#implementation button {
+    font-size: 15px;
+    font-family: "Droid sans";
+    border: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 15px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+
+#implementation button:hover {
+    cursor: pointer;
+    background-color: ;
+}
+
+footer {
+    height: 50px;
+}
+
+#card {
+    box-sizing: border-box;
+    font-family: "Hind Siliguri";
+    text-align: center;
+    padding-top: 24px;
+    border: 1px solid black;
+}
+
+#url {
+    color: black;
+    font-weight: bolder;
+    font-family: "Scope one";
+/*    border-bottom: 2px solid red;*/
+    margin-left: 10px;
+    background-color: #fc3;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#card h2 {
+    font-size: 25px;
+}
+
+#card-footer {
+    display: flex;
+    line-height: 50px;
+    font-family: "Hind Siliguri";
+    margin-top: 25px;
+    box-shadow: 0px 0px 10px -1px black;
+}
+
+#card-footer p {
+    width: 50%;
+    font-size: 20px;
+    color: black;
+    background-color: #dddddd;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#card-footer p a {
+    color: black;
+}
+
+#card-footer i {
+    margin-left: 4px;
+    color: black;
+    position: relative;
+    top: 3px;
+}
+
+#usage {
+    background-color: rgba(0,0,0,0.8);
+    height: 250px;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
+
+#usage h1 {
+    color: white;
+    width: 200px;
+    margin: 0 auto;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fc3;
+    padding-bottom: 3px;
+}
+
+#process-tree {
+    margin: 0 auto;
+    max-width: 750px;
+    font-family: "Hind";
+    font-size: 17px;
+    color: white;
+}
+
+#process-tree li {
+    margin-top: 3px;
+}
+
+#process-tree li a {
+    color: #fc3;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-family: "Scope one";
+    box-sizing: border-box;
+    padding: 16px;
+    height: 70px;
+    font-size: 15px;
+    color: white;
+}
+
+footer p {
+}
+
+footer a {
+    color: #fc3;
+}
+
+#icon {
+    color: white;
+    font-size: 17px;
+    margin-left: 2px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 80vh;
+    }
+    
+    #implementation {
+        padding: 40px 18px -100px 18px; ;
+        box-sizing: border-box;
+        height: 240px;
+    }
+    
+    #misc {
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #implementation {
+        padding: 40px 18px -100px 18px; ;
+        box-sizing: border-box;
+        height: 320px;
+    }
+    
+    #misc {
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+    
+    #usage {
+        background-color: rgba(0,0,0,0.8);
+        height: 300px;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #implementation {
+        height: 350px;
+    }
+    
+    #usage {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        height: 82vh;
+    }
+    #header-items-container {
+        padding-top: 41px;
+    }
+
+    #implementation {
+        padding: 35px 18px -10px 18px; ;
+        box-sizing: border-box;
+        height: 400px;
+    }
+    
+    #usage {
+        height: 380px;
+    }
+    
+    #misc {
+        position: relative;
+        top: 60px;
+        text-align: center;
+    }
+    
+    #implementation code {
+        font-size: 11px;
+    }
+    
+    #title h1 {
+        font-size: 60px;
+    }
+    
+    #product-tag {
+        font-size: 23px;
+    }
+    
+    #copy-snippet {
+        font-size: 10px;
+        padding: 3px;
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+    
+    footer {
+        height: 90px;
+    }
+}
+
+/* end of media queries */
+
+
+
+
